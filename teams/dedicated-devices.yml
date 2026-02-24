@@ -13,7 +13,7 @@ controls:
     custom_settings:
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_exclude_any:
-          - C-Suite
+          - C-Suite-v2
 software:
 team_settings:
   secrets:

@@ -13,6 +13,10 @@ org_settings:
     host_expiry_enabled: true 
     host_expiry_window: 30
   org_info:
-    org_name: Fleet
+    org_name: The lands between
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true 
+      destination_url: https://webhook.site/ec8e6ba6-afe7-4df2-beaf-526fcbdb8730
